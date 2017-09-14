@@ -20,7 +20,7 @@ function addElementToEndOfArray(a,v){
 
 
 function destructivelyAddElementToEndOfArray(a,v){
-  a.push();
+  a.push(v);
   return a
 }
 
