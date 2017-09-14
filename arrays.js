@@ -35,12 +35,12 @@ function destructivelyRemoveElementFromBeginningOfArray(a){
 }
 
 function removeElementFromBeginningOfArray(a){
-  a.slice(1)
-  return a  
+  a.slice(1);
+  return a
 }
 
 function destructivelyRemoveElementFromEndOfArray(a){
-  a.pop()
+  a.pop();
   return a
 }
 
