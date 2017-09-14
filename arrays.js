@@ -9,7 +9,8 @@ function addElementToBeginningOfArray(a,v){
 
 
 function destructivelyAddElementToBeginningOfArray(a,v){
-  a.unshift(v)
+var n = a;
+return  a.unshift(v);
 }
 
 
